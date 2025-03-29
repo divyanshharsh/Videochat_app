@@ -6,9 +6,9 @@ const Room = () => {
   const {roomID} = useParams();
   console.log(roomID); 
   const meeting = async(element) => {
-    const appID = 424209479;
-    const serverSecret = "9dfdddae779d73e0f6dcb94277c91acd"
-    const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Divyansh");
+    const appID = 86689295;
+    const serverSecret = "6aca767172ee26c4dd77b057a85c0e51"
+    const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Saswat");
 
     const zp = ZegoUIKitPrebuilt.create(kitToken);
 
